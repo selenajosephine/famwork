@@ -41,10 +41,8 @@ nav {
     margin: auto;
     overflow: hidden;
     border-color: #33499C;
-    border-left-color: #33499C;
-    border-left-width: thick;
-    border-top-color: #33499C;
-    border-top-width: thick;
+    border-left-width: thick !important;
+    border-top-width: thick !important;
 }
 
 .navbar-brand {
@@ -83,6 +81,8 @@ nav {
 
     .card.services {
         height: 190px;
+        border-left-width: thick !important;
+        border-top-width: thick !important;
     }
 }
 
