@@ -1,0 +1,251 @@
+@font-face {
+    font-family: manrope;
+    src: url("manrope-regular.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "manrope", sans-serif;
+    font-size: 1rem;
+    background: #FFFFFF 0% 0% no-repeat;
+    overflow-x: hidden;
+}
+
+main {
+    max-width: 100vmax;
+    margin: auto;
+    padding: 0rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat;
+    height: 78px;
+}
+
+.card.services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 185px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 60px;
+    margin: auto;
+    overflow: hidden;
+    border-color: #33499C;
+    border-left-color: #33499C;
+    border-left-width: thick;
+    border-top-color: #33499C;
+    border-top-width: thick;
+}
+
+.navbar-brand {
+    width: 166px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1.73px;
+    color: #33499C;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        width: 175px;
+        height: 35px;
+    }
+
+    .img-title {
+        position: absolute !important;
+        width: 303px !important;
+        height: 535px !important;
+        top: 20% !important;
+        left: 10% !important;
+        right: 10% !important;
+
+    }
+
+    .about-us-img {
+        height: 623px !important;
+    }
+
+    .about-us-heading {
+        top: 10% !important;
+        left: 8rem !important;
+    }
+
+    .card.services {
+        height: 190px;
+    }
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background: #33499C;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 400px;
+
+}
+
+.footer hr {
+    background: white !important;
+}
+
+.footer-content {
+    height: 35px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner img {
+    height: 565px;
+    width: 100%;
+}
+
+.famwork-menu-item {
+    color: #33499C;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.27px;
+    cursor: pointer;
+}
+
+.box {
+    position: relative;
+}
+
+.img-title {
+    position: absolute;
+    width: 1126px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #000000;
+    left: 10rem;
+    right: 0;
+    top: 55%;
+    font-weight: 900;
+}
+
+.about-us-heading {
+    position: absolute;
+    font-weight: bold;
+    top: 45%;
+    left: 40rem;
+    width: 144px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #33499C;
+
+    font-size: 20px;
+}
+
+.about-us-img {
+    height: 425px;
+    width: 100% !important;
+    opacity: 0.4;
+}
+
+.famwork-info {
+    text-align: center;
+    color: #33499C;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+
+}
+
+.col-sm.services {
+    padding-top: 3rem;
+}
+
+.card-text.services {
+    width: 212px;
+    height: 60px;
+    text-align: center;
+    letter-spacing: 2.02px;
+    color: #33499C;
+    font-weight: bold;
+}
+
+.card.services:hover {
+    background: #dddddd;
+}
+
+.avatar {
+    border: 0.3rem;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+    width: 153px;
+    height: 153px;
+}
+
+.col-sm {
+    padding-top: 8rem;
+}
+
+.card.who-we-are {
+    border-radius: 0;
+    border: 0;
+
+}
+
+.card-text.who-we-are {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.contact-us {
+    width: 3.5rem;
+    color: #CCCACA;
+    font-size: 30px !important;
+}
+
+h4 {
+    letter-spacing: 2.63px;
+    height: 48px;
+}
+
+p {
+    letter-spacing: 2.5px;
+    height: 70px;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #33499C;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
