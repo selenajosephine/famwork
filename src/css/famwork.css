@@ -249,3 +249,7 @@ p {
 #myBtn:hover {
     background-color: #555;
 }
+.linkedin{
+    border-radius: 50%;
+    margin: 0px 0px 8px -43px;
+}
