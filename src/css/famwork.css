@@ -84,6 +84,10 @@ nav {
         border-left-width: thick !important;
         border-top-width: thick !important;
     }
+    .carousel-inner img {
+        height: 350px;
+        width: 100%;
+    }
 }
 
 .footer {
